@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+html {
+  background-color: rgb(166, 163, 163);
+}
+
+body {
+  background-color: rgb(225, 133, 100);
+  border: 3px solid black;
+  height: 100%;
+  margin: 4em;
+}
+
+main {
+  height: 20em;
+}
+
+h1 {
+  border: 1px solid black;
+  text-align: center;
+  background-color: rgb(192, 191, 191);
+  margin: 1em 6em;
+}
+
+.todoLogo {
+  height: 1.5em;
+  width: 4em;
+  padding-top: 5px;
+}
+ div{
+    text-align: center;
+ }
+
+ ol{
+    margin-top: 2em;
+    padding-left: 14em;
+ }
+
+ ol li{
+    line-height: 1.5em;
+    text-align: left;
+   
+ }
+
+#inputBox {
+  height: 3em;
+  width: 30em;
+  border-radius: 1em;
+  border: 3px solid black;
+  background-color: aliceblue;
+}
+.button {
+  height: 3em;
+  width: 6em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #262424;
+  border: 2px solid black;
+  border-radius: 1em;
+  background-color: rgb(154, 154, 184);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(95, 95, 129);
+  color: aliceblue;
+}
+
+.btn{
+    margin-left: 2em;
+}
